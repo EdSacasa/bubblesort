@@ -16,4 +16,4 @@ def bubble_sort(array)
   array
 end
 
-puts bubble_sort([1,3,5,2,8,9,2,4])
+
