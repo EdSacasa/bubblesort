@@ -16,6 +16,6 @@ def bubble_sort_by(arr)
   p answer.reverse
 end
 
-bubble_sort_by( %W[ hola hi hellopop hey qhuboman]) do |left, right|
+bubble_sort_by(%w[hola hi hellopop hey qhuboman]) do |left, right|
   left.length - right.length
 end

@@ -9,7 +9,7 @@ def bubble_sort(array)
         swapped = true
       end
     end
-    break if !swapped
+    break unless swapped.empty?
   end
   array
 end
