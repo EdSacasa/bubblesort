@@ -1,4 +1,4 @@
-`# frozen_string_literal: true`
+`#frozen_string_literal: true`
 def bubble_sort_by(arr)
   answer = []
   i = 1
@@ -16,6 +16,6 @@ def bubble_sort_by(arr)
   p answer.reverse
 end
 
-bubble_sort_by(['hola', 'hi', 'hellopop', 'hey', 'qhuboman']) do |left, right|
+bubble_sort_by( %W[ hola hi hellopop hey qhuboman]) do |left, right|
   left.length - right.length
 end
